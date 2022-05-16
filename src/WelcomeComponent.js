@@ -58,7 +58,7 @@ function WelcomeComponent({name}) {
       </Button>
       <View
         style={{
-          alignItems: 'center',
+          alignItems: 'center ',
           backgroundColor: '#DDDDDD',
           width: '90%',
           margin: 20,
