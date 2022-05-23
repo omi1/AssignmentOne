@@ -37,6 +37,7 @@ function WelcomeComponent({name}) {
         `Your name is : {nameParam}`
       </Text>
       <Button
+        testID="button"
         mode="text"
         onPress={() => console.log('Pressed')}
         style={{
@@ -45,12 +46,14 @@ function WelcomeComponent({name}) {
         Press me
       </Button>
       <Button
+        testID="button"
         style={[{width: '90%', margin: 20, backgroundColor: '#808080'}]}
         mode="contained"
         onPress={() => console.log('Pressed')}>
         Press me
       </Button>
       <Button
+        testID="button"
         mode="contained"
         style={[{width: '90%', margin: 20, backgroundColor: '#ADD8E6'}]}
         onPress={() => console.log('Pressed')}>
